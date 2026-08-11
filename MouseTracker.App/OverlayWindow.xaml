@@ -1,0 +1,17 @@
+<Window x:Class="MouseTracker.App.OverlayWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:rendering="clr-namespace:MouseTracker.App.Rendering"
+        Title="mouseTracker Overlay"
+        AllowsTransparency="True"
+        Background="Transparent"
+        Focusable="False"
+        ResizeMode="NoResize"
+        ShowActivated="False"
+        ShowInTaskbar="False"
+        Topmost="True"
+        WindowStyle="None">
+    <Grid Background="Transparent">
+        <rendering:MouseTrailRenderer x:Name="Renderer" />
+    </Grid>
+</Window>

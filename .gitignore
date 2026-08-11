@@ -1,0 +1,21 @@
+# Build outputs
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Published artifacts
+dist/
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+
+# User/local files
+*.user
+*.suo
+*.tmp
+
+# Logs
+*.log
